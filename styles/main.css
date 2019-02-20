@@ -185,7 +185,7 @@ b {
 .col{
     width: 50%;
     box-sizing: border-box;
-    display: inline-block;
+    float: left;
 }
 
 h3{
@@ -303,4 +303,11 @@ span{
     font-size: 16px;
     color: #2ecc71;
     margin-bottom: 10px;
+}
+
+.clearfix{
+    clear: both;
+    &:after, &:before{
+        clear: both;
+    }
 }
