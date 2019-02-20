@@ -273,6 +273,15 @@ li {
     margin-bottom: 10px;
 }
 
+.col-img {
+    width: 100%;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
 /*  progress circle  */
 
 .progress {
@@ -351,4 +360,68 @@ li {
     &:before {
         clear: both;
     }
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #2ecc71;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    float: left;
+    margin-top: 40px;
+    margin-left: 25%;
+
+}
+
+.containerForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-color: white
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.rowForm:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button:focus {outline:0;}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
 }
